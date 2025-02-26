@@ -8,11 +8,6 @@ Release:        2%{?dist}
 Patch0:         dolphin-go_up.diff
 Patch1:         0001-Revert-Disallow-executing-Dolphin-as-root-on-Linux.patch
 
-# PATCH-FIX-UPSTREAM
-Patch2:         0001-DolphinViewContainer-make-sure-searchbox-is-initiali.patch
-Patch3:         0001-dolphinview-Update-thumbnail-on-filename-change.patch
-Patch4:         0001-ViewProperties-Return-nullptr-if-viewPropertiesStrin.patch
-
 License:        BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND (GPL-2.0-only OR GPL-3.0-only) AND (LGPL-2.1-only OR LGPL-3.0-only)
 URL:            https://invent.kde.org/system/dolphin
 Source0:        https://download.kde.org/stable/release-service/%{version}/src/%{name}-%{version}.tar.xz
