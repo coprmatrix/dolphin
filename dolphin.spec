@@ -10,7 +10,7 @@ Patch1:         0001-Revert-Disallow-executing-Dolphin-as-root-on-Linux.patch
 
 License:        BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-only AND (GPL-2.0-only OR GPL-3.0-only) AND (LGPL-2.1-only OR LGPL-3.0-only)
 URL:            https://invent.kde.org/system/dolphin
-Source0:        https://github.com/KDE/%{dolphin}/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
+Source0:        https://github.com/KDE/%{name}/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
