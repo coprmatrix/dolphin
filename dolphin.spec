@@ -135,7 +135,7 @@ xvfb-run -a bash -c "%ctest" || :
 %dir %{_kf6_datadir}/kglobalaccel/
 %{_kf6_datadir}/kglobalaccel/org.kde.dolphin.desktop
 %{_kf6_datadir}/kconf_update/*.*
-%{_kf6_datadir}/kconf_update_bin/*.*                            
+%{_kf6_libdir}/kconf_update_bin/*                            
 
 %dir %{_kf6_datadir}/dolphin
 %{_kf6_datadir}/dolphin/dolphinpartactions.desktop
